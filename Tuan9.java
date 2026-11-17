@@ -3,7 +3,7 @@ package Tuan9;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-// Lớp cha Tuan9.Sach chứa các thuộc tính và phương thức dùng chung
+// Lớp cha chứa các thuộc tính và phương thức dùng chung
 class Sach {
     protected String maSach, ngayNhap, nhaXuatBan;
     protected double donGia;
@@ -27,7 +27,7 @@ class Sach {
     }
 }
 
-// Lớp con Sách giáo khoa kế thừa lớp Tuan9.Sach
+// Lớp con Sách giáo khoa kế thừa
 class SachGiaoKhoa extends Sach {
     private String tinhTrang;
 
@@ -53,7 +53,7 @@ class SachGiaoKhoa extends Sach {
     }
 }
 
-// Lớp con Sách tham khảo kế thừa lớp Tuan9.Sach
+// Lớp con Sách tham khảo kế thừa
 class SachThamKhao extends Sach {
     private double thue;
 
