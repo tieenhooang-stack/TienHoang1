@@ -21,7 +21,7 @@ class Sach {
     public double tinhThanhTien() {
         return 0;
     }
-
+ 
     public void xuat() {
         System.out.print("Mã: " + maSach + " | Ngày: " + ngayNhap + " | Giá: " + donGia + " | SL: " + soLuong + " | NXB: " + nhaXuatBan);
     }
